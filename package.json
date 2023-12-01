@@ -1,12 +1,13 @@
 {
 	"name": "@redlotus/get-urls",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Get all URLs in a string",
 	"license": "MIT",
 	"exports": {
-		"types": "./dist/index.d.ts",
-		"default": "./dist/index.js"
-	},
+    	"./package.json": "./package.json",
+    	".": "./dist/index.js"
+  	},
+  	"types": "dist/index.d.ts",
 	"engines": {
 		"node": ">=16"
 	},
