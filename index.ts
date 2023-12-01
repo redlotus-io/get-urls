@@ -1,5 +1,5 @@
-import normalizeUrl from "normalize-url";
-import type { Options as NormalizeUrlOptions } from "normalize-url";
+import { normalizeUrl } from "@redlotus/normalize-url";
+import type { Options as NormalizeUrlOptions } from "@redlotus/normalize-url";
 import { isMatch, matches } from "super-regex";
 import urlRegex from "url-regex-safe";
 

@@ -1,13 +1,13 @@
 {
 	"name": "@redlotus/get-urls",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Get all URLs in a string",
 	"license": "MIT",
 	"exports": {
-    	"./package.json": "./package.json",
-    	".": "./dist/index.js"
-  	},
-  	"types": "dist/index.d.ts",
+		"./package.json": "./package.json",
+		".": "./dist/index.js"
+	},
+	"types": "dist/index.d.ts",
 	"engines": {
 		"node": ">=16"
 	},
@@ -15,10 +15,10 @@
 		"build": "tsc",
 		"test": "ava && tsd"
 	},
-  	"files": [
-  	  "dist/index.js",
-  	  "dist/index.d.ts"
-  	],
+	"files": [
+		"dist/index.js",
+		"dist/index.d.ts"
+	],
 	"keywords": [
 		"get",
 		"urls",
@@ -30,7 +30,7 @@
 		"string"
 	],
 	"dependencies": {
-		"normalize-url": "^8.0.0",
+		"@redlotus/normalize-url": "^1.0.0",
 		"super-regex": "^0.2.0",
 		"url-regex-safe": "^4.0.0"
 	},
