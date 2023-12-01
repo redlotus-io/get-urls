@@ -1,6 +1,6 @@
 import { normalizeUrl } from "@redlotus/normalize-url";
 import type { Options as NormalizeUrlOptions } from "@redlotus/normalize-url";
-import { isMatch, matches } from "super-regex";
+import { isMatch, matches } from "@redlotus/super-regex";
 import urlRegex from "url-regex-safe";
 
 export type Options = {
