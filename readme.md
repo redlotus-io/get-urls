@@ -1,3 +1,8 @@
+![RedLotus-Logo-Dark](.github/base-logo-dark-mode.svg#gh-dark-mode-only)
+![RedLotus-Logo-Light](.github/base-logo-light-mode.svg#gh-light-mode-only)
+
+## Redlotus fork for adding CommonJS support
+
 # get-urls
 
 > Get all URLs in a string
@@ -11,13 +16,15 @@ Please note the [known limitation](https://github.com/niftylettuce/url-regex-saf
 ## Install
 
 ```sh
-npm install get-urls
+npm install @redlotus/get-urls
+
+yarn add @redlotus/get-urls
 ```
 
 ## Usage
 
 ```js
-import getUrls from 'get-urls';
+import getUrls from '@redlotus/get-urls';
 
 const text = 'Lorem ipsum dolor sit amet, //sindresorhus.com consectetuer adipiscing http://yeoman.io elit.';
 

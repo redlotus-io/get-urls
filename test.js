@@ -1,6 +1,6 @@
-import fs from 'node:fs';
-import test from 'ava';
-import getUrls from './index.js';
+const fs = require('fs');
+const test = require('ava');
+const getUrls = require('./index.js');
 
 test('get unique cleaned-up urls from a string', t => {
 	t.deepEqual(

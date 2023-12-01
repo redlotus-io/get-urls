@@ -1,6 +1,6 @@
-import urlRegex from 'url-regex-safe';
-import normalizeUrl from 'normalize-url';
-import {isMatch, matches} from 'super-regex';
+const urlRegex = require('url-regex-safe');
+const normalizeUrl = require('normalize-url');
+const { isMatch, matches } = require('super-regex');
 
 const getUrlsFromQueryParameters = url => {
 	const returnValue = new Set();
