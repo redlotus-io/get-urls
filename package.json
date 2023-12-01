@@ -1,6 +1,6 @@
 {
 	"name": "@redlotus/get-urls",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Get all URLs in a string",
 	"license": "MIT",
 	"exports": {
@@ -15,10 +15,10 @@
 		"build": "tsc",
 		"test": "ava && tsd"
 	},
-	"files": [
-		"index.js",
-		"index.d.ts"
-	],
+  	"files": [
+  	  "dist/index.js",
+  	  "dist/index.d.ts"
+  	],
 	"keywords": [
 		"get",
 		"urls",
