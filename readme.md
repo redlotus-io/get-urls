@@ -24,7 +24,7 @@ yarn add @redlotus/get-urls
 ## Usage
 
 ```js
-import getUrls from '@redlotus/get-urls';
+import { getUrls } from '@redlotus/get-urls';
 
 const text = 'Lorem ipsum dolor sit amet, //sindresorhus.com consectetuer adipiscing http://yeoman.io elit.';
 
