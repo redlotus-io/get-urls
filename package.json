@@ -1,6 +1,6 @@
 {
 	"name": "@redlotus/get-urls",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "Get all URLs in a string",
 	"license": "MIT",
 	"exports": {
@@ -31,7 +31,7 @@
 	],
 	"dependencies": {
 		"@redlotus/normalize-url": "^1.0.0",
-		"@redlotus/super-regex": "^1.0.0",
+		"@redlotus/super-regex": "^1.0.1",
 		"url-regex-safe": "^4.0.0"
 	},
 	"devDependencies": {
